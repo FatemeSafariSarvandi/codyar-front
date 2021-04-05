@@ -17,12 +17,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 20px 10px 20px 10px;
+    padding: 25px 10px 20px 10px;
 }
 #background {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow-y: scroll;
+    height: 650px;
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.308);
     border-radius: 10px;
@@ -158,6 +160,9 @@ body {
     }
     body {
         font-size: 14px;
+    }
+    #background {
+        height: 550px;
     }
     .lesson {
         margin: 25px 20px 25px 20px;
