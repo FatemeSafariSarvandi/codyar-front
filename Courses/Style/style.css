@@ -28,7 +28,7 @@ body {
     background-color: white;
     border-radius: 15px;
     padding: 5px 8px 6px 8px;
-    width: 400px;
+    width: 70%;
     box-shadow: -1px 2px 3px -1px #5f5f5f;
 }
 #serchbar > input {
@@ -96,7 +96,7 @@ body {
     border-radius: 10px;
     margin: 60px 200px 60px 100px;
     padding: 15px;
-    height: 550px;
+    height: 65%;
     background-color: #b2b8d2;
     box-shadow: -1px 2px 3px -1px #0f0f0f;
 }
@@ -146,9 +146,6 @@ body {
 }
 
 @media only screen and (max-width: 960px) {
-    #serchbar {
-        width: 350px;
-    }
     #classifyPage {
         margin: 60px 80px 60px 20px;
     }
@@ -162,15 +159,11 @@ body {
         font-size: 14px;
         line-height: 15px;
     }
-    #serchbar {
-        width: 170px;
-    }
+
     #serchbar > input {
         font-size: 0.6rem;
     }
-    #course-list {
-        height: 600px;
-    }
+
     #classify {
         font-size: 0.6rem;
         padding: 5px 7px 5px 7px;
@@ -186,7 +179,6 @@ body {
         font-size: 0.6rem;
     }
     #classifyPage {
-        height: 450px;
         margin: 60px 20px 60px 20px;
     }
     #classifyPage span {

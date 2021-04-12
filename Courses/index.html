@@ -15,22 +15,21 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="col-12">
-            <div id="page">
-                <div id="header">
-                    <div>
-                        <form action="" id="serchbar">
-                            <input
-                                class="col-12"
-                                type="text"
-                                placeholder="جستجو در کدیار"
-                                name="search"
-                            />
-                            <i class="fa fa-search"></i>
-                        </form>
-                    </div>
-                    <button id="classify">دسته بندی ها</button>
-                </div>
+        <div id="page">
+            <div id="header">
+                <form action="" id="serchbar">
+                    <input
+                        class="col-12"
+                        type="text"
+                        placeholder="جستجو در کدیار"
+                        name="search"
+                    />
+                    <i class="fa fa-search"></i>
+                </form>
+
+                <button id="classify">دسته بندی ها</button>
+            </div>
+            <div class="col-12" id="subpage">
                 <div id="course-list">
                     <div id="title">دوره های کدیار</div>
                     <div class="course">
@@ -107,59 +106,60 @@
                     <a href=""><i class="fas fa-arrow-right"></i> صفحه اصلی</a>
                 </div>
             </div>
-            <div id="classifyPage" class="col-8 col-ms-9">
-                <div><span>انتخاب دسته بندی</span></div>
-                <div id="text">دسته بندی مورد نظر خود را انتخاب کنید:</div>
-                <form action="" id="classifyForm">
-                    <div class="lesson">
-                        <input
-                            type="radio"
-                            name="subject"
-                            id="webDeveloper"
-                            class="lessonInput"
-                        />
-                        <label for="">توسعه وب</label>
-                    </div>
-                    <div class="lesson">
-                        <input
-                            type="radio"
-                            name="subject"
-                            id="desktop"
-                            class="lessonInput"
-                        />
-                        <label for="">دسکتاپ</label>
-                    </div>
-                    <div class="lesson">
-                        <input
-                            type="radio"
-                            name="subject"
-                            id="artificialIntelligence"
-                            class="lessonInput"
-                        />
-                        <label for="">هوش مصنوعی</label>
-                    </div>
-                    <div class="lesson">
-                        <input
-                            type="radio"
-                            name="subject"
-                            id="security"
-                            class="lessonInput"
-                        />
-                        <label for="">امنیت</label>
-                    </div>
-                    <div class="lesson">
-                        <input
-                            type="radio"
-                            name="subject"
-                            id="gaming"
-                            class="lessonInput"
-                        />
-                        <label for="">Gaming</label>
-                    </div>
-                    <button id="select">انتخاب</button>
-                </form>
-            </div>
         </div>
+        <div id="classifyPage" class="col-8 col-ms-9">
+            <div><span>انتخاب دسته بندی</span></div>
+            <div id="text">دسته بندی مورد نظر خود را انتخاب کنید:</div>
+            <form action="" id="classifyForm">
+                <div class="lesson">
+                    <input
+                        type="radio"
+                        name="subject"
+                        id="webDeveloper"
+                        class="lessonInput"
+                    />
+                    <label for="">توسعه وب</label>
+                </div>
+                <div class="lesson">
+                    <input
+                        type="radio"
+                        name="subject"
+                        id="desktop"
+                        class="lessonInput"
+                    />
+                    <label for="">دسکتاپ</label>
+                </div>
+                <div class="lesson">
+                    <input
+                        type="radio"
+                        name="subject"
+                        id="artificialIntelligence"
+                        class="lessonInput"
+                    />
+                    <label for="">هوش مصنوعی</label>
+                </div>
+                <div class="lesson">
+                    <input
+                        type="radio"
+                        name="subject"
+                        id="security"
+                        class="lessonInput"
+                    />
+                    <label for="">امنیت</label>
+                </div>
+                <div class="lesson">
+                    <input
+                        type="radio"
+                        name="subject"
+                        id="gaming"
+                        class="lessonInput"
+                    />
+                    <label for="">Gaming</label>
+                </div>
+                <button id="select">انتخاب</button>
+            </form>
+        </div>
+
         <script src="./Script/script.js"></script>
     </body>
 </html>
